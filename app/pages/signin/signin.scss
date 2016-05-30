@@ -1,0 +1,50 @@
+.home {
+  background-color: #34495E;
+  
+  ion-item{
+      background: transparent;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid lightgray !important;
+    border-radius: 10px;
+  }
+  
+  ion-list .item-inner{
+    border: none;
+  }
+  
+  form{
+    margin-top: 40vh;
+  }
+  
+ion-list .firstChild{
+  margin-bottom: 1vh;
+}
+
+ion-list ion-item ion-label{
+  color: lightgray;
+}
+
+ion-list div{
+  display:flex;
+  justify-content:center;
+}
+
+ion-list button{
+  width: 45%;
+  // margin: 0 auto;
+  // display: block;
+  position: relative;
+  top: 1vh;
+  border-radius: 10px;
+}
+
+ion-spinner svg {
+  width: 28px;
+  height: 28px;
+  stroke: white !important;
+  fill: white !important;
+}
+
+}

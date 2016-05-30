@@ -1,0 +1,29 @@
+<ion-content class="home">
+  <!--<ul *ngFor="let item of data | async">
+    <li class="text">
+      {{item.Questions | json}}
+    </li>
+  </ul>-->
+
+  <form>
+    <ion-list>
+
+      <ion-item class="firstChild">
+        <ion-label stacked>Username</ion-label>
+        <ion-input type="email" [(ngModel)]="user.email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked>Password</ion-label>
+        <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+      </ion-item>
+
+      <div>
+        <button (click)="login(user)"><span *ngIf="!isSigninClicked">sign In </span> <ion-spinner *ngIf="isSigninClicked"></ion-spinner></button>
+        <button (click)="signUp(user)"><span *ngIf="!isSignupClicked">signup </span><ion-spinner *ngIf="isSignupClicked"></ion-spinner></button>
+      </div>
+    </ion-list>
+  </form>
+
+
+</ion-content>
