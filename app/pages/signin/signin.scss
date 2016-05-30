@@ -1,7 +1,13 @@
 .home {
   background-color: #34495E;
   
-  ion-item{
+  .logo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 10vh;
+  }
+  
+  ion-item {
       background: transparent;
     color: white;
     width: 90%;
@@ -10,28 +16,29 @@
     border-radius: 10px;
   }
   
-  ion-list .item-inner{
+  ion-list .item-inner {
     border: none;
   }
   
-  form{
-    margin-top: 40vh;
+  form {
+    position: relative;
+    top: 20vh;
   }
   
-ion-list .firstChild{
+ion-list .firstChild {
   margin-bottom: 1vh;
 }
 
-ion-list ion-item ion-label{
+ion-list ion-item ion-label {
   color: lightgray;
 }
 
-ion-list div{
+ion-list div {
   display:flex;
   justify-content:center;
 }
 
-ion-list button{
+ion-list button {
   width: 45%;
   // margin: 0 auto;
   // display: block;
